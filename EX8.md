@@ -1,7 +1,6 @@
 # EX 8: Simulating deadlock scenario
 ## Date: 21/9/23 
-## AIM: 
-To simulate a scenario of deadlock in concurrent execution of transactions.
+## AIM: To simulate a scenario of deadlock in concurrent execution of transactions.
 ## PROCEDURE:
 1. Create a accounts table with the schema Accounts (account_id INT PRIMARY KEY,balance DECIMAL(10, 2))
 2. Insert the values in the accounts table
@@ -53,5 +52,4 @@ Transaction (Process ID) was deadlocked
 on resourceswith anotherprocess and has been
 chosen as the deadlock victim. Rerun the transaction.
 ```
-## RESULT:
-Thus the program for the simulation of deadlock has been executed successfully.
+## RESULT: Thus the program for the simulation of deadlock has been executed successfully.
