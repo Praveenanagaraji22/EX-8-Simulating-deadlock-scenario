@@ -18,10 +18,8 @@ CREATE TABLE Accounts (account_id INT PRIMARY KEY,balance DECIMAL(10, 2));
 INSERT INTO Accounts VALUES(1, 1000.00);
 INSERT INTO Accounts VALUES(2, 2500.00);
 ```
-## OUTPUT
+## OUTPUT 
 ![image](https://github.com/dineshgl/EX-8-Simulating-deadlock-scenario/assets/143793356/2f35d3f2-474d-4366-ade6-d0a151da1d2c)
-
-## Now, let's set up the two transactions T1 and T2:
 ## Transaction T1
 ```sql
 BEGIN TRANSACTION;
